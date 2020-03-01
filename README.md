@@ -1,12 +1,27 @@
-## Welcome to GitHub Pages
+## Welcome to the official Jacklin213 blog
 
-You can use the [editor on GitHub](https://github.com/jacklin213/blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can see the live version of the website at https://blog.jacklin213.com.
+This website is built using Jekyll hosted on Github Pages.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Most of the blog posts will be done in Markdown format, see the [Markdown section](#Markdown) for a brief reference guide.
+
+### Development
+If you would like to download a local version of the website, you can do so following the steps below
+#### First time setup
+After installing [ruby](https://jekyllrb.com/docs/installation/), run the command below to install jekyll and bundler gems.
+```bash
+gem install jekyll bundler
+```
+#### Serving the website
+To see the website while developing run
+```bash
+bundle exec jekyll serve
+```
+By default the website will be available at http://localhost:4000
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown is a lightweight and easy-to-use syntax for styling writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
@@ -27,11 +42,3 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jacklin213/blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
